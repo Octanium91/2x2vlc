@@ -9,7 +9,7 @@
 ## Инструкция
 
 - Устновить VLC Media Player (http://www.videolan.org/vlc/)
-- Запустить скрипт (2x2tv_on_vlc.cmd)
+- Запустить скрипт ([2x2tv_on_vlc.cmd](https://raw.githubusercontent.com/Octanium91/2x2vlc/master/2x2tv_on_vlc.cmd))
 - Смотреть =)
 
 ## Системные требования
