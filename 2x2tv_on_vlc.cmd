@@ -3,7 +3,7 @@ rem Author: Octanium (Octanium91)
 set "script_title=2X2 TV on VLC (ver. 1.0) By Octanium"
 title=%script_title%
 rem set "CL=--repeat --no-video-title-show --deinterlace=-1 --input-title-format="2X2 TV Online""
-set "CL=--deinterlace=-1"
+set "CL=--network-caching=3500 --deinterlace=-1"
 rem Try to find VLC Media Player
 if exist "%ProgramFiles%\VideoLAN\VLC\vlc.exe" set "VLC_EXE=%ProgramFiles%\VideoLAN\VLC\vlc.exe"&goto StartVLC
 if exist "%ProgramFiles(x86)%\VideoLAN\VLC\vlc.exe" set "VLC_EXE=%ProgramFiles(x86)%\VideoLAN\VLC\vlc.exe"&goto StartVLC
